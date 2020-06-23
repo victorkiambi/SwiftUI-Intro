@@ -15,6 +15,10 @@
 		57F4854E24A1F6FC0062BBD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57F4854C24A1F6FC0062BBD9 /* LaunchScreen.storyboard */; };
 		57F4855924A1F6FC0062BBD9 /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F4855824A1F6FC0062BBD9 /* ExampleTests.swift */; };
 		57F4856424A1F6FC0062BBD9 /* ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F4856324A1F6FC0062BBD9 /* ExampleUITests.swift */; };
+		57F4857424A1FBF40062BBD9 /* goodbye.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57F4857324A1FBF40062BBD9 /* goodbye.jpg */; };
+		57F4857B24A219AC0062BBD9 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F4857A24A219AC0062BBD9 /* CircleImage.swift */; };
+		57F4857D24A21A3E0062BBD9 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F4857C24A21A3E0062BBD9 /* MapView.swift */; };
+		57F4857F24A21F3E0062BBD9 /* la.png in Resources */ = {isa = PBXBuildFile; fileRef = 57F4857E24A21F3E0062BBD9 /* la.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		57F4855F24A1F6FC0062BBD9 /* ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57F4856324A1F6FC0062BBD9 /* ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleUITests.swift; sourceTree = "<group>"; };
 		57F4856524A1F6FC0062BBD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57F4857324A1FBF40062BBD9 /* goodbye.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = goodbye.jpg; path = ../../../Downloads/goodbye.jpg; sourceTree = "<group>"; };
+		57F4857A24A219AC0062BBD9 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		57F4857C24A21A3E0062BBD9 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		57F4857E24A21F3E0062BBD9 /* la.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = la.png; path = "../../../My stuff/pics/la.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,7 @@
 		57F4853524A1F6F80062BBD9 = {
 			isa = PBXGroup;
 			children = (
+				57F4857324A1FBF40062BBD9 /* goodbye.jpg */,
 				57F4854024A1F6F80062BBD9 /* Example */,
 				57F4855724A1F6FC0062BBD9 /* ExampleTests */,
 				57F4856224A1F6FC0062BBD9 /* ExampleUITests */,
@@ -102,7 +111,10 @@
 				57F4854124A1F6F80062BBD9 /* AppDelegate.swift */,
 				57F4854324A1F6F80062BBD9 /* SceneDelegate.swift */,
 				57F4854524A1F6F80062BBD9 /* ContentView.swift */,
+				57F4857A24A219AC0062BBD9 /* CircleImage.swift */,
+				57F4857C24A21A3E0062BBD9 /* MapView.swift */,
 				57F4854724A1F6FC0062BBD9 /* Assets.xcassets */,
+				57F4857E24A21F3E0062BBD9 /* la.png */,
 				57F4854C24A1F6FC0062BBD9 /* LaunchScreen.storyboard */,
 				57F4854F24A1F6FC0062BBD9 /* Info.plist */,
 				57F4854924A1F6FC0062BBD9 /* Preview Content */,
@@ -240,6 +252,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57F4857F24A21F3E0062BBD9 /* la.png in Resources */,
+				57F4857424A1FBF40062BBD9 /* goodbye.jpg in Resources */,
 				57F4854E24A1F6FC0062BBD9 /* LaunchScreen.storyboard in Resources */,
 				57F4854B24A1F6FC0062BBD9 /* Preview Assets.xcassets in Resources */,
 				57F4854824A1F6FC0062BBD9 /* Assets.xcassets in Resources */,
@@ -268,6 +282,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				57F4854224A1F6F80062BBD9 /* AppDelegate.swift in Sources */,
+				57F4857B24A219AC0062BBD9 /* CircleImage.swift in Sources */,
+				57F4857D24A21A3E0062BBD9 /* MapView.swift in Sources */,
 				57F4854424A1F6F80062BBD9 /* SceneDelegate.swift in Sources */,
 				57F4854624A1F6F80062BBD9 /* ContentView.swift in Sources */,
 			);
